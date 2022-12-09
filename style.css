@@ -1,0 +1,104 @@
+body{
+    width: 80%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: rgb(56, 46, 46);
+}
+.header{
+    background-color: rgb(15, 71, 15);
+    padding: 3px 10px;
+}
+.header div{
+    display: inline-block;
+}
+.header h1{
+     color: white;
+     font-weight: 400;
+}
+.header span{
+    color:gold;
+}
+.header ul {
+    list-style-type: none;
+    padding-left: 250px;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.header ul li a:hover{
+    color: rgb(182, 212, 12);
+    border-bottom: 1px solid rgb(185, 197, 18);
+}
+.banner{
+    background-image: url(vaccine.jpeg);
+    height: 350px;
+    background-size: cover;
+    margin-top:0px ;
+    padding:10%;
+}
+.banner h2{
+    color:gold ;
+    font-size: 2.7em;
+}
+.banner p{
+    color: #fff;
+    font-size: 1.5em;
+}
+.banner button{
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    color: gold;
+}
+.a{
+    color: blue;
+}
+.content iframe{
+    float: right;
+    margin: 15px;
+}
+.footer{
+    background-color: green ;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+}
+.table{
+    background-color: rgb(87, 105, 87); 
+}
+.div-first h1 span{
+    color: rgb(13, 97, 5);
+}
+.div-first h1{
+    color: gold;
+}
+.form{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(80, 116, 80);
+    padding: 20px;
+}
+ input, textarea {
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+textarea{
+    height: 60px;
+}
+.submit{
+    background-color: rgb(17, 94, 17);
+    color: #fff;
+}
